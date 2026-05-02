@@ -55,7 +55,10 @@ function App() {
       <div className="containerInner">
         {!accepted ? (
           <div className="card" ref={cardRef}>
-            <h2>Mujhse shaadi karogi? ❤️</h2>
+            <h2>“Zyada sochna mana hai 😌
+              kyunki options sirf do hi hain…
+              Yes 💕 ya phir bhi Yes 😜
+              Toh… Mujhse shaadi karogi?” ❤️</h2>
 
             <div className="btn-row">
               <button
@@ -83,14 +86,18 @@ function App() {
 
             {showWarning && (
               <p className="warning">
-                ⚠️ Soch le... Yes hi best option hai 😏
+                ⚠️ Soch le... ⚠️ Itna attitude theek nahi hai 😜<br/>
+                    YES hi safe option hai 😂
               </p>
             )}
           </div>
         ) : (
-          <div className="card">
-            <h2>I knew it! 🎉</h2>
-            <p>You are Always say YES.......❤️</p>
+          <div className="card1">
+       <h2>Relax karo 😄</h2>
+                <p>
+                          Itna serious mat ho…
+                          proposal hai, <br/> Exam Nahi <br/>ANUCHHKA 😂
+                      </p>
           </div>
         )}
       </div>

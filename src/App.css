@@ -19,7 +19,7 @@ body {
   align-items: center;
   width: 40vw;
   /* max-width: 500px; */
-  height: 40vh;
+  height: 50vh;
   background-color:white;
   box-shadow: 0 10px 20px rgba(0,0,0,0.1);
   border-radius: 20px;
@@ -97,6 +97,25 @@ button {
   font-weight: bold;
   font-size: 22px;
 }
+.card1{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.card1 h2{
+  font-size: 36px;
+  text-align: center;
+}
+
+.card1 p{
+  font-size: 22px;
+  width: 100%;
+  text-align: center;
+
+}
 
 @media (max-width: 1024px) {
 
@@ -106,6 +125,7 @@ button {
 
   .containerInner {
     width: 80%;
+    height: 60vh;
   }
 
   .card {
@@ -128,9 +148,9 @@ button {
   }
 
   .warning {
-    font-size: 15px;
-    padding: 30%;
-    padding-top: 20px;
+    font-size: 16px;
+        width: 100%;
+
 
   }
 }
@@ -141,21 +161,30 @@ button {
 
   .container {
     padding: 10px;
+   
+
   }
 
   .containerInner {
     width: 80%;
+    height: 60vh;
+   padding-top: 0;
+  
+
   }
 
   .card {
     padding: 20px;
     gap: 18px;
     border-radius: 12px;
+
+
   }
 
   .card h2 {
     font-size: 22px;
-    line-height: 1;
+    line-height: 1.4;
+
   }
 
   .btn-row {
@@ -180,8 +209,9 @@ button {
   }
 
   .warning {
-    font-size: 14px;
+    font-size: 16px;
     text-align: center;
+    width: 100%;
     /* padding: 30%; */
   }
 }
