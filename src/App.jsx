@@ -56,9 +56,9 @@ function App() {
         {!accepted ? (
           <div className="card" ref={cardRef}>
             <h2>“Zyada sochna mana hai 😌
-              kyunki options sirf do hi hain…
-              Yes 💕 ya phir bhi Yes 😜
-              Toh… Mujhse shaadi karogi?” ❤️</h2>
+              kyunki,<br/> options sirf do hi hain…
+              Yes 💕 ya phir bhi No 😜
+              Toh… Mera Sorry Accept kr loo NAA................ ?” ❤️</h2>
 
             <div className="btn-row">
               <button
@@ -81,13 +81,13 @@ function App() {
                 top: position.y
               }}
             >
-              No 😜
+              Gussa 😜
             </button>
 
             {showWarning && (
               <p className="warning">
                 ⚠️ Soch le... ⚠️ Itna attitude theek nahi hai 😜<br/>
-                    YES hi safe option hai 😂
+                    YES hi safe option hai 😂 , Gussa hone se Sirf tu Motti hogi 
               </p>
             )}
           </div>
