@@ -55,10 +55,10 @@ function App() {
       <div className="containerInner">
         {!accepted ? (
           <div className="card" ref={cardRef}>
-            <h2>“Zyada sochna mana hai 😌
-              kyunki, options sirf do hi hain…
-              Yes 💕 ya phir bhi No 😜
-              Toh… Mera Sorry Accept kr loo NAA...... ?” ❤️</h2>
+            <h2>Sorry bol raha hu, ab maan bhi jao 😌<br/>
+              itna gussa ho ke kya he paogi? 😜<br/>
+              maaf kar do mujhe warna dikkat ho jayegi…<br/>
+              itna gussa karogi to thodi si or moti ho jaogi 😂❤️ </h2>
 
             <div className="btn-row">
               <button
@@ -67,7 +67,7 @@ function App() {
                 style={{ transform: `scale(${yesSize})` }}
                 onClick={() => setAccepted(true)}
               >
-                Yes 💕
+                Accepted💕
               </button>
             </div>
 
@@ -81,27 +81,32 @@ function App() {
                 top: position.y
               }}
             >
-              Gussa 😜
+              Gussa hu 😜
             </button>
 
             {showWarning && (
               <p className="warning">
-                ⚠️ Soch le... ⚠️ Itna attitude theek nahi hai 😜<br/>
-                    YES hi safe option hai 😂 , Gussa hone se Sirf tu Motti hogi 
+                ⚠️ Soch le... ⚠️ itna attitude theek nahi hai 😜<br/>
+                maan jaogi to 
+                paani patase bhi khilauga, jo bologi wo movie dikhaunga 🎬<br/>
+                bas ek baar maff to kro agli barr se <strong>Moti</strong> nhi Bulauga 😂❤️
+                
               </p>
             )}
           </div>
         ) : (
           <div className="card1">
-       <h2>Finally maan gayi 😎</h2>
+       <h2>Finally!  😎</h2>
   <p>
     Itna gussa, itna nakhra… sab chalta hai 😜<br/>
-    bas end me tu maan jaaye, wahi acha hai ❤️<br/><br/>
+    bas end me tu maan jaaye, wahi acha hai yarr ❤️<br/><br/>
 
-    Thank you bolu ya khilau khana? 😄<br/>
-    aur haan…<br/>
-    next mistake ke liye pehle se hi  bol du Sorry😂🙏
-    <br/>ANUCHHKA ❤️
+  Thank you bolu ya khilau pizza ya burger? 🍕🍔<br/>
+tu bole to aa jaun bina invite ke tere ghar <br/>
+tu bas maff kr de...mujko iss bar<br/>
+agli baar goli maar dena yaar 😂<br/>
+   aur roz baat karunga… bas maan ja na yaar 🙏😜
+    <br/><strong>ANUCHHKA ❤️</strong>
   </p>
           </div>
         )}
