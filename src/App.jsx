@@ -56,9 +56,9 @@ function App() {
         {!accepted ? (
           <div className="card" ref={cardRef}>
             <h2>“Zyada sochna mana hai 😌
-              kyunki,<br/> options sirf do hi hain…
+              kyunki, options sirf do hi hain…
               Yes 💕 ya phir bhi No 😜
-              Toh… Mera Sorry Accept kr loo NAA................ ?” ❤️</h2>
+              Toh… Mera Sorry Accept kr loo NAA...... ?” ❤️</h2>
 
             <div className="btn-row">
               <button
@@ -93,11 +93,16 @@ function App() {
           </div>
         ) : (
           <div className="card1">
-       <h2>Relax karo 😄</h2>
-                <p>
-                          Itna serious mat ho…
-                          proposal hai, <br/> Exam Nahi <br/>ANUCHHKA 😂
-                      </p>
+       <h2>Finally maan gayi 😎</h2>
+  <p>
+    Itna gussa, itna nakhra… sab chalta hai 😜<br/>
+    bas end me tu maan jaaye, wahi acha hai ❤️<br/><br/>
+
+    Thank you bolu ya khilau khana? 😄<br/>
+    aur haan…<br/>
+    next mistake ke liye pehle se hi  bol du Sorry😂🙏
+    <br/>ANUCHHKA ❤️
+  </p>
           </div>
         )}
       </div>
